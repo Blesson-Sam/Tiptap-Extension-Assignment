@@ -1,0 +1,54 @@
+/* Editor Container Styling */
+.editor-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fce4ec; /* Light pink background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Blockquote Custom Styling */
+  .custom-blockquote {
+    border-left: 5px solid #f06292; /* Light pink left border */
+    padding-left: 20px;
+    font-style: italic;
+    color: #555;
+    background-color: #fff4f7; /* Light background for the blockquote */
+    margin: 20px 0;
+    font-size: 1.2rem;
+  }
+  
+  /* Button Styling */
+  .cta-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #f06292; /* Light pink button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hover Effect on Button */
+  .cta-button:hover {
+    background-color: #d81b60; /* Darker pink on hover */
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsiveness for mobile devices */
+  @media (max-width: 600px) {
+    .custom-blockquote {
+      font-size: 1rem;
+      padding-left: 15px;
+    }
+  
+    .cta-button {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+    }
+  }
+  
